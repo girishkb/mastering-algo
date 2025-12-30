@@ -5,7 +5,9 @@ import java.util.Map;
 import java.util.Objects;
 
 /*
-*Problem Statement (LeetCode 523 – Continuous Subarray Sum)Given an integer array nums and an integer k, return true if there exists a contiguous subarray whose sum is a multiple of k (i.e., sum % k == 0), and the subarray has at least 2 elements. Return false otherwise.Key ConstraintsThe subarray must have length ≥ 2
+*Problem Statement (LeetCode 523 – Continuous Subarray Sum)Given an integer array nums and an integer k,
+* return true if there exists a contiguous subarray whose sum is a multiple of k (i.e., sum % k == 0),
+* and the subarray has at least 2 elements. Return false otherwise.Key ConstraintsThe subarray must have length ≥ 2
 Sum can be any multiple of k (including 0, ±k, ±2k, etc.)
 k is non-zero (guaranteed by problem)
 nums[i] can be positive, negative, or zero
@@ -18,7 +20,6 @@ nums = [5, 0, 0, 0], k = 3 → true
 Subarray [0, 0] → sum = 0 → 0 % 3 == 0
 nums = [1, 0], k = 2 → false
 Possible subarrays: [1] (len=1), [0] (len=1), [1,0] sum=1 (1%2≠0)
-
 
 * */
 public class ContinuousSubarraySum {

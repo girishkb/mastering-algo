@@ -12,7 +12,7 @@ Subarrays: [1,1] (indices 0-1) and [1,1] (indices 1-2)
 nums = [1, 2, 3], k = 3 → Output: 2
 Subarrays: [1,2] and [3]
 nums = [1, -1, 0], k = 0 → Output: 3
-Subarrays: [1,-1], [-1,0], [0], and also the single [1,-1,0] sums to 0, wait no—actually the valid ones are [1,-1], [1,-1,0], and [0]
+Subarrays: the valid ones are [1,-1], [1,-1,0], and [0]
 
 
  * */
